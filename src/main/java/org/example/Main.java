@@ -11,7 +11,7 @@ public class Main {
         int anioNacimientoCliente;
         int anioActual;
         String nombresCompletosCliente;
-        int salarioCliente;
+        long salarioCliente;
         String licorFavoritoCLiente;
         String cantanteFavoritoCliente;
         double valorIva;
@@ -36,7 +36,7 @@ public class Main {
         anioActual=entradaTeclado.nextInt();
 
         System.out.print("Digita el salario del cliente: ");
-        salarioCliente=entradaTeclado.nextInt();
+        salarioCliente=entradaTeclado.nexlong();
 
 
 
